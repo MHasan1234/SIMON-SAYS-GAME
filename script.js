@@ -69,7 +69,7 @@ function checkAns(idx) {
     } 
  
 }
-
+//button press
 function btnPress() {
     // console.log(this);
     let btn =this;
@@ -85,7 +85,7 @@ let allBtns = document.querySelectorAll(".btn");
 for (btn of allBtns) {
     btn.addEventListener("click", btnPress);
 }
-
+// reset is applied
 function reset() {
     started = false;
     gameSeq = [];
