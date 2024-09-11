@@ -17,14 +17,14 @@ document.addEventListener("keypress", function() { // eventListener is applied o
     }
 });  //LEVEL--1 IS COMPLETED HERE
 
-
+//game flash
 function gameFlash(btn) {
     btn.classList.add("flash");
     setTimeout(function () {
         btn.classList.remove("flash");
     },250);
 }
-
+// userflash
 function userFlash(btn) {
     btn.classList.add("userflash");
     setTimeout(function () {
